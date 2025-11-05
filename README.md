@@ -100,7 +100,3 @@ Barbershop/
 Este projeto é de código aberto para fins educacionais.  
 Desenvolvido por **Edson Carvalho** — 2025.
 
-
-Seu repositório agora transmite **profissionalismo, cuidado com os detalhes e foco no usuário** — exatamente como sua barbearia! 🪒✨
-
-Quer que eu gere também um **`.gitignore` final** ou ajude com o **deploy no Vercel**? É só pedir!
