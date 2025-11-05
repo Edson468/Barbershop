@@ -49,7 +49,7 @@ Uma **landing page premium e responsiva** para **Barbearia Estilo**, desenvolvid
    npm start
    ```
 
-4. Acesse em: [http://localhost:3000](http://localhost:3000)
+4. Acesse em: [Barbershop](barbershop-six-sigma.vercel.app)
 
 ---
 
