@@ -1,70 +1,106 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Barbearia Estilo — Landing Page
 
-## Available Scripts
 
-In the project directory, you can run:
+Uma **landing page premium e responsiva** para **Barbearia Estilo**, desenvolvida com foco em **experiência do usuário, design sofisticado e funcionalidade intuitiva**. Ideal para atrair clientes, exibir serviços, localização e permitir agendamento rápido em Fortaleza – CE.
 
-### `npm start`
+> ✂️ **Corte impecável, estilo garantido.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🌟 Recursos
 
-### `npm test`
+- **Design premium**: paleta de cores em preto, cinza e dourado
+- **Agendamento interativo**: calendário com seleção de data, horários e serviços
+- **Mapa integrado**: localização em Fortaleza – CE com Google Maps
+- **Seção de serviços**: com descrição e valores transparentes
+- **Galeria em carrossel**: exibição elegante do trabalho
+- **Contato via WhatsApp**: com link direto
+- **Totalmente responsivo**: perfeito para mobile e desktop
+- **Animações suaves**: transições fluidas e experiência premium
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** — Biblioteca JavaScript para interfaces dinâmicas
+- **Tailwind CSS** — Framework utilitário para estilização rápida e consistente
+- **date-fns** — Manipulação de datas em português (pt-BR)
+- **react-icons** — Ícones escaláveis e leves
+- **Google Maps Embed** — Integração de mapa sem APIs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Instalação Local
 
-### `npm run eject`
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/Barbershop.git
+   cd Barbershop
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Inicie o servidor de desenvolvimento**
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Acesse em: [http://localhost:3000](http://localhost:3000)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📂 Estrutura do Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+Barbershop/
+├── public/
+│   └── assets/             # Imagens estáticas (hero.jpg, etc.)
+├── src/
+│   ├── components/         # Componentes reutilizáveis
+│   │   ├── Header.jsx      # Menu fixo com scroll suave
+│   │   ├── Servicos.jsx    # Seção "Nossos Serviços"
+│   │   ├── Agendamento.jsx # Calendário interativo + formulário
+│   │   ├── Localizacao.jsx # Endereço + mapa de Fortaleza – CE
+│   │   ├── Galeria.jsx     # Carrossel de imagens
+│   │   ├── Contato.jsx     # WhatsApp + informações de contato
+│   │   └── Footer.jsx      # Rodapé com links
+│   └── App.jsx             # Layout principal da landing page
+├── tailwind.config.js      # Configuração do Tailwind (com cor dourada personalizada)
+├── .gitignore              # Arquivos ignorados no versionamento
+└── README.md               # Este arquivo
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🎨 Paleta de Cores
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Cor       | Código      | Uso                     |
+|----------|-------------|-------------------------|
+| Preto    | `#000000`   | Fundo principal         |
+| Cinza    | `#1e293b`   | Seções secundárias      |
+| Dourado  | `#d4af37`   | Destaques, botões, texto|
 
-### Analyzing the Bundle Size
+> ✨ Inspiração: elegância clássica com toque contemporâneo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📸 Preview (em breve)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> **Adicione prints reais aqui depois!**  
+> Você pode usar o [Loom](https://www.loom.com/) ou capturas de tela do seu navegador e atualizar o link da imagem no topo.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📄 Licença
 
-### Deployment
+Este projeto é de código aberto para fins educacionais.  
+Desenvolvido por **Edson Carvalho** — 2025.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+Seu repositório agora transmite **profissionalismo, cuidado com os detalhes e foco no usuário** — exatamente como sua barbearia! 🪒✨
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Quer que eu gere também um **`.gitignore` final** ou ajude com o **deploy no Vercel**? É só pedir!
