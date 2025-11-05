@@ -20,8 +20,9 @@ const Footer = () => {
           </a>
         </div>
         {/* Informações de direitos autorais e endereço da barbearia. */}
-        <p className="mb-2">© 2025 Barbearia Estilo. Todos os direitos reservados.</p>
+        <p className="mb-2">© 2025 Barbearia Estilo.</p>
         <p className="text-gray-600">Rua das Palmeiras, 123 – Fortaleza/CE</p>
+        <p>Desenvolvido por Edson Carvalho. Todos os direitos reservados.</p>
       </div>
     </footer>
   );
